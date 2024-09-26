@@ -324,8 +324,11 @@ h1:nth-child(3) {
     height: 30rem;
   }
   .footer-wrapper {
- flex-direction: column;
-}
+    flex-direction: column;
+  }
+  .footer-section {
+    padding: 2rem 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .home-landing-wrapper {
@@ -346,6 +349,9 @@ h1:nth-child(3) {
   .routing-section {
     padding-top: 0rem;
   }
+  .routing-wrapper {
+    padding: 2rem;
+  }
   .bestprice-right-img > img {
     width: 20rem;
     height: 20rem;
@@ -353,13 +359,13 @@ h1:nth-child(3) {
   .routing-glass {
     margin-top: 10rem;
   }
-  .footer-wrapper{
-    gap:2rem
+  .footer-wrapper {
+    gap: 2rem;
   }
-  .footer-info{
+  .footer-info {
     font-size: 1rem;
   }
-  .footer-link{
+  .footer-link {
     gap: 2rem;
     font-size: 1rem;
   }
